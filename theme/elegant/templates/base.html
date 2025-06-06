@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="{{ DEFAULT_LANG }}">
     <head>
         <meta charset="utf-8">
@@ -125,6 +125,10 @@
                 return (query.length > 0);
             }
         </script>
+        <!-- === Highlight Notes System === -->
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/highlight-notes.css">
+        <script src="{{ SITEURL }}/theme/js/highlight-notes.js"></script>
+        <!-- === End Highlight Notes === -->
         {% endblock script %}
         {% include '_includes/stat_counter.html' %}
     </body>
